@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ product.name }}</title>
+</head>
+<body>
+<a href="{{ url_for('index') }}">Back</a>
+<h1>{{ product.name }}</h1>
+<p>${{ "%.2f"|format(product.price) }} - {{ product.category }}</p>
+</body>
+</html>

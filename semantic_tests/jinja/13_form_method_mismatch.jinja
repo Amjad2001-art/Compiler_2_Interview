@@ -1,0 +1,9 @@
+{# Cross-language fixture XL001 FormMethodMismatch: the form POSTs to `index`, whose route only accepts GET #}
+<form method="POST" action="{{ url_for('index') }}">
+  <select name="category">
+    {% for category in categories %}
+    <option value="{{ category }}">{{ category }}</option>
+    {% endfor %}
+  </select>
+  <button type="submit">Filter</button>
+</form>

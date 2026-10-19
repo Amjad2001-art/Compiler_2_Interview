@@ -1,0 +1,8 @@
+{# Semantic fixture JJ003 NonIterableLoop: `shop_name` is a string provided by the route, not a list #}
+<h1>Products</h1>
+<ul>
+  {% for item in shop_name %}
+  <li>{{ item }}</li>
+  {% endfor %}
+</ul>
+<p>{{ products|length }} products</p>

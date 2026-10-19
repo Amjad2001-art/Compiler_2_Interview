@@ -1,0 +1,7 @@
+{# Semantic fixture JJ008 UnknownTest: `is expensive` is not a Jinja test #}
+<h1>{{ product.name }}</h1>
+{% if product.price is expensive %}
+<p>Premium</p>
+{% else %}
+<p>Standard</p>
+{% endif %}

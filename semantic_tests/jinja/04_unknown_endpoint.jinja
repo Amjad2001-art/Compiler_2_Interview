@@ -1,0 +1,6 @@
+{# Semantic fixture JJ004 UnknownEndpoint: no Flask route is named `product_details` #}
+<ul>
+  {% for product in products %}
+  <li><a href="{{ url_for('product_details', product_id=product.id) }}">{{ product.name }}</a></li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,11 @@
+{# HTML fixture HT005 DuplicateId: two elements share id="catalog" #}
+<div id="catalog">
+  <ul>
+    {% for product in products %}
+    <li>{{ product.name }}</li>
+    {% endfor %}
+  </ul>
+</div>
+<div id="catalog">
+  <p>{{ products|length }} products</p>
+</div>

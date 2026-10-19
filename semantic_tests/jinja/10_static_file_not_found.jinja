@@ -1,0 +1,3 @@
+{# Semantic fixture JJ011 StaticFileNotFound: missing.css does not exist next to the templates #}
+<link rel="stylesheet" href="{{ url_for('static', filename='missing.css') }}">
+<p>{{ products|length }} products</p>

@@ -1,0 +1,8 @@
+{# Semantic fixture JJ001 UndefinedVariable: `prodcts` is a typo, no route provides it #}
+<h1>Products</h1>
+<p>{{ prodcts|length }} products in {{ categories|length }} categories</p>
+<ul>
+  {% for product in products %}
+  <li>{{ product.name }}</li>
+  {% endfor %}
+</ul>

@@ -1,0 +1,10 @@
+{
+  "app.py": "8eeb0af066aaaa5e39a3b5c6b282a6a7048f8787889e452067f987c2160bd3d5",
+  "templates/add_product.jinja": "7731b82e304b28b270ca459db31d2ed1f9823d3ca70c34e6e09adf933d9e5cca",
+  "templates/delete_product.jinja": "5b9184bf972ec479c4d829504ebe07e4314fa876fe156ebc489124b284a040f2",
+  "templates/edit_product.jinja": "7b017923fb5d32c62a85825ade0ea47fedfe7422a6c70b6e963fefa27271fe80",
+  "templates/product_detail.jinja": "4a21bcc691944cc1c884d906cc720c3706739048a63733ee3ae376e1d7062114",
+  "templates/index.jinja": "9bfdbc181a80d058eb7003edb03c8071eb57b37a8f38453589d10044ab8788de",
+  "static/style.css": "371743bae2cdb0216c63187f213e89e23133e12727d9999579b189bc96f91f0d",
+  "static/script.js": "29c9023d307f6fe5378ee1482a33394b06f3e854071f15c8d56dcb925c9918f1"
+}

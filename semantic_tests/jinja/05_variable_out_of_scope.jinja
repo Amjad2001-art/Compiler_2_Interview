@@ -1,0 +1,7 @@
+{# Semantic fixture JJ005 VariableOutOfScope: `product` only exists inside the for loop #}
+<ul>
+  {% for product in products %}
+  <li>{{ product.name }}</li>
+  {% endfor %}
+</ul>
+<p>Last product shown: {{ product.name }}</p>

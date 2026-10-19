@@ -1,0 +1,5 @@
+{# Semantic fixture JJ013 IncompatibleComparison: price is a number, "cheap" is a string #}
+<h1>{{ product.name }}</h1>
+{% if product.price == "cheap" %}
+<p>Bargain!</p>
+{% endif %}

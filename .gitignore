@@ -1,0 +1,35 @@
+
+# مخرجات بناء جافا
+/compiler-java/target/
+*.class
+*.jar
+
+# الصفحات والتقارير الناتجة عن تشغيل المترجم
+/output/
+/compiler_output/
+/compiler_details/
+/compiler_validation_runs/
+
+# المستندات والتقارير غير البرمجية
+/report/
+*.md
+*.pdf
+*.docx
+*.rar
+*.zip
+/submission_info.txt
+
+# ملف التشغيل الاختياري
+/run_project.bat
+
+# الملفات المؤقتة وإعدادات المحرر
+__pycache__/
+*.pyc
+*.pyo
+*.log
+*.tmp
+.venv/
+venv/
+.idea/
+.vscode/
+*.iml

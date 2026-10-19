@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Products</title>
+</head>
+<body>
+<h1>Products ({{ products|length }})</h1>
+<ul class="categories">
+  {% for category in categories %}
+  <li>{{ category }}</li>
+  {% endfor %}
+</ul>
+<ul class="products">
+  {% for product in products %}
+  <li>
+    <strong>{{ product.name }}</strong>
+    - ${{ "%.2f"|format(product.price) }} ({{ product.category }})
+  </li>
+  {% endfor %}
+</ul>
+</body>
+</html>
