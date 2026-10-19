@@ -13,6 +13,7 @@
 # المستندات والتقارير غير البرمجية
 /report/
 *.md
+!/README.md
 *.pdf
 *.docx
 *.rar
